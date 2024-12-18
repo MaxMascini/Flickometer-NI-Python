@@ -1,2 +1,7 @@
-# Flickometer-NI-Python
- Python code repo for the flicko-meter using national instruments library
+# README
+
+- Currently the best seems to be `Continuous_measurement_no_graph_RSE.py`
+  - Outputs dominant frequency using RSE 
+
+- Added harmonic detection and multiple outputs with logging in `SSVEP_Stim_validation.py`
+
