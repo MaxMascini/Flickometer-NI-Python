@@ -13,8 +13,8 @@ import csv
 # Configuration
 SAMPLE_RATE = 2000  # Sampling rate in Hz
 SAMPLES_PER_CHANNEL = 8000  # Number of samples to acquire
-CHANNELS = ["Dev1/ai1", "Dev1/ai2", "Dev1/ai3", "Dev1/ai4", "Dev1/ai5", "Dev1/ai6"]
-FREQ_RANGE = (9, 14)  # Frequency range for band-pass filter
+CHANNELS = ["Dev2/ai1", "Dev2/ai2", "Dev2/ai3", "Dev2/ai4", "Dev2/ai5", "Dev2/ai6"]
+FREQ_RANGE = (7, 59)  # Frequency range for band-pass filter
 AMPLITUDE_THRESHOLD = 0.01  # Minimum amplitude threshold for valid signal
 HARMONIC_COUNT = 3  # Number of harmonics to analyze
 
